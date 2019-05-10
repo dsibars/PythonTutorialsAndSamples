@@ -9,6 +9,18 @@
 *.tmPreferences.cache
 *.stTheme.cache
 
+# IDE files #
+#############
+.~lock.*
+.buildpath
+.iml
+.project
+.classpath
+.settings
+**/*.iml
+**/*plugin.xml
+# composer.lock
+
 # workspace files are user-specific
 *.sublime-workspace
 
@@ -20,6 +32,9 @@
 # Basics
 *.py[cod]
 __pycache__
+
+#Data files
+*.dat
 
 # Logs
 *.log
@@ -71,3 +86,5 @@ AUTHORS
 *.iml
 
 build/
+
+.idea/
