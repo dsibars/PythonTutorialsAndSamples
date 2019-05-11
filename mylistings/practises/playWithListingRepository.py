@@ -8,7 +8,7 @@ myNamesListing = ListingRepository(baseDirectory, 'names')
 print(myNamesListing.data)
 
 myNamesListing.add('brandiluis')
-myNamesListing.add('redris')
+myNamesListing.add('rodri')
 
 print(myNamesListing.data)
 

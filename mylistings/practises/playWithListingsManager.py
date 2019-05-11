@@ -1,4 +1,4 @@
-from mylistings.core.service.listingsManager import ListingsManager
+from mylistings.core.manager.listingsManager import ListingsManager
 
 baseDirectory = 'data2'
 

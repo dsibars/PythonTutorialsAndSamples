@@ -32,17 +32,17 @@ print('current number is: ' + str(number))
 print('all together: ' + text + str(number))
 
 # The last print can be used several times... let's create a function
-def myCustomPrint(text, number):
+def my_custom_print(text, number):
     print('current text is: ' + text)
     print('current number is: ' + str(number))
     print('all together: ' + text + str(number))
 
 
 # Let's try! this should do the same
-myCustomPrint(text, number)
+my_custom_print(text, number)
 
 # We can harcode another values
-myCustomPrint('patata', 54454)
+my_custom_print('patata', 54454)
 
 
 # Create a class with functionality :D
@@ -53,19 +53,19 @@ class MyPrinter(object):
         self.text = text
         self.number = number
 
-    def buildAllTogetherText(self, text, number):
+    def build_all_together_text(self, text, number):
         return 'all together: ' + text + str(number);
 
-    def myCustomPrint(self, text, number):
+    def my_custom_print(self, text, number):
         print('current text is: ' + text)
         print('current number is: ' + str(number))
-        print('all together: ' + self.buildAllTogetherText(text, number))
+        print('all together: ' + self.build_all_together_text(text, number))
 
     def print(self):
-        self.myCustomPrint(self.text, self.number)
+        self.my_custom_print(self.text, self.number)
 
-    def getAllTogetherText(self):
-        return self.buildAllTogetherText(self.text, self.number)
+    def get_all_together_text(self):
+        return self.build_all_together_text(self.text, self.number)
 
     def increase(self):
         self.number += 1
@@ -73,10 +73,10 @@ class MyPrinter(object):
 
 printer = MyPrinter('pipas', 69)
 
-print(printer.getAllTogetherText())
-print(printer.buildAllTogetherText('aaaannnnn', 44))
+print(printer.get_all_together_text())
+print(printer.build_all_together_text('aaaannnnn', 44))
 
-printer.myCustomPrint('yuhuu', 'yeheeee')
+printer.my_custom_print('yuhuu', 'yeheeee')
 
 printer.print()
 
