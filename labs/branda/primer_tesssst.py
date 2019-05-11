@@ -1,3 +1,5 @@
+# print i str son funcions de Python
+
 # print('coca')
 # print('clenxes FC')
 
@@ -15,3 +17,8 @@ clenxitext = str(clenxes_matinals)
 #print(material_clenxil + material_sa)
 
 print(material_sa + ': ' + clenxitext)
+
+def print_with_number(text, number):
+    print(text + str(number))
+
+print_with_number(material_sa, clenxes_nocturnes)
