@@ -31,3 +31,4 @@ def print_with_number(text, number):
 
 
 print_with_number('hola ', 5)
+print_with_number(caca, Nivell_Sordesa4)
