@@ -1,4 +1,8 @@
-#print('oigas')
+# print('oigas')
+
+# string or str es una cadena de lletres
+
+
 aparatu_gaes = 'oigas'
 caca = 'cera'
 print(aparatu_gaes)
@@ -13,3 +17,6 @@ print(Nivell_Sordesa + Nivell_Sordesa3)
 
 print(aparatu_gaes + caca)
 print(caca + str(Nivell_Sordesa3))
+
+NivellSordesa = str(Nivell_Sordesa2)
+print('el nivell de sordesa es: ' + NivellSordesa)
