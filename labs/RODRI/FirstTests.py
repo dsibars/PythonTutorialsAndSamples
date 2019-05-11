@@ -29,8 +29,14 @@ print('el nivell de sordesa es: ' + NivellSordesa)
 def build_with_number(text, number):
     return text + str(number)
 
+
+resultat = build_with_number(caca, Nivell_Sordesa4)
+
+print(resultat)
+
 def print_with_number(text, number):
-    print(build_with_number(text, number))
+    text_to_print = build_with_number(text, number)
+    print(text_to_print)
 
 
 
@@ -39,8 +45,6 @@ print_with_number(caca, Nivell_Sordesa4)
 
 
 
-resultat = build_with_number(caca, Nivell_Sordesa4)
 
-print(resultat)
 
 print_with_number('hola ', 5)
