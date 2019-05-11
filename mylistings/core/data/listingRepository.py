@@ -1,5 +1,6 @@
 import os
 
+
 class ListingRepository(object):
     # Initializer / Instance Attributes
 
