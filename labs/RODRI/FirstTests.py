@@ -30,7 +30,7 @@ def build_with_number(text, number):
     return text + str(number)
 
 def print_with_number(text, number):
-    print(text + str(number))
+    print(build_with_number(text, number))
 
 
 
