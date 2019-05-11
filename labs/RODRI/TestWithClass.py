@@ -26,4 +26,9 @@ dani = Friend('Dani', 'Rodri', 10)
 dani.present_yourself()
 dani.salutate()
 
+charly = Friend('Charly', 'Rodri', 10)
+charly.present_yourself()
+charly.salutate()
+
+
 
