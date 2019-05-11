@@ -9,7 +9,9 @@ material_sa = 'tofu'
 clenxes_matinals = 2
 clenxes_nocturnes = 6
 
-print(clenxes_matinals + clenxes_nocturnes)
-print(material_clenxil + material_sa)
+clenxitext = str(clenxes_matinals)
 
-print(material_sa + ': ' + str(clenxes_matinals))
+#print(clenxes_matinals + clenxes_nocturnes)
+#print(material_clenxil + material_sa)
+
+print(material_sa + ': ' + clenxitext)
