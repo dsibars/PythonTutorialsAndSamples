@@ -21,11 +21,7 @@ print(material_sa + ': ' + clenxitext)
 def build_with_number(text, number):
     return text + str(number)
 
-sumada = build_with_number(material_clenxil, clenxes_matinals)
-
-print(sumada)
-
 def print_with_number(text, number):
-    print(text + str(number))
+    print(build_with_number(text+' ', number))
 
 print_with_number(material_sa, clenxes_nocturnes)
