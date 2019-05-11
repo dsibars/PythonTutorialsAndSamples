@@ -26,9 +26,21 @@ print('el nivell de sordesa es: ' + NivellSordesa)
 
 # com definir funcio en python
 
+def build_with_number(text, number):
+    return text + str(number)
+
 def print_with_number(text, number):
     print(text + str(number))
 
 
+
 print_with_number('hola ', 5)
 print_with_number(caca, Nivell_Sordesa4)
+
+
+
+resultat = build_with_number(caca, Nivell_Sordesa4)
+
+print(resultat)
+
+print_with_number('hola ', 5)
