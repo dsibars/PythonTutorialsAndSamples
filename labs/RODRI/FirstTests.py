@@ -2,6 +2,7 @@
 
 # string or str es una cadena de lletres
 
+# funcions internes print i str
 
 aparatu_gaes = 'oigas'
 caca = 'cera'
@@ -20,3 +21,13 @@ print(caca + str(Nivell_Sordesa3))
 
 NivellSordesa = str(Nivell_Sordesa2)
 print('el nivell de sordesa es: ' + NivellSordesa)
+
+# afegir més funcions, relacionades amb tot això. Com a entrada tindra dos variables, primera de text y segona d enumero, y el que fara sera imprimirte el texte y el numero
+
+# com definir funcio en python
+
+def print_with_number(text, number):
+    print(text + str(number))
+
+
+print_with_number('hola ', 5)
