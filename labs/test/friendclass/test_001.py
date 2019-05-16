@@ -1,6 +1,7 @@
 import unittest
 from labs.Friend import Friend
 
+
 class TestFriend001(unittest.TestCase):
     def setUp(self):
         self.test_name = 'patata'

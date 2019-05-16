@@ -1,6 +1,7 @@
 import unittest
 from labs.Friend import Friend
 
+
 class TestFriend002(unittest.TestCase):
     def setUp(self):
         self.test_name = 'patata'
@@ -34,7 +35,6 @@ class TestFriend002(unittest.TestCase):
 
         # Check if the expected result and result are the same
         self.assertEquals(self.target.present_yourself(), expected_result)
-
 
 
 if __name__ == '__main__':
