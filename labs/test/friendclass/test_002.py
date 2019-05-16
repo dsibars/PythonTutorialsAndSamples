@@ -13,32 +13,28 @@ class TestFriend002(unittest.TestCase):
         self.test_level = 5
         self.target = Friend(self.test_name, self.test_friendof, self.test_level)
 
-    def test_salutate(self):
-        expected_result = 'hello my friend ' + self.test_friendof + '. How are you?'
-        self.assertEquals(self.target.salutate(), expected_result)
+    def test_change_name(self):
+        # Test friend level to low value
+        test_new_level = 8
 
-    def test_present_yourself(self):
-        expected_result = 'hello! I am ' + self.test_name
-        self.assertEquals(self.target.present_yourself(), expected_result)
+        # Set a new level
+        self.target.set_level(test_new_level)
 
-    def test_say_all(self):
-        expected_result = 'hello! I am ' + self.test_name + '\n' + 'hello my friend ' + self.test_friendof + '. How are you?'
-        self.assertEquals(self.target.say_all(), expected_result)
-
-    def change_name(self):
-        # Test change name functionality
-        test_new_name = 'petete'
-        # Set a new name
-        self.target.set_name(test_new_name)
         # Expected result
-        expected_result = 'hello! I am ' + test_new_name
+        expected_result = 'OH MY GOD I LOVE YOU!'
+
         # Generate the result
-        result = self.target.present_yourself()
-        # Restore the name
-        self.target.set_name(self.test_name)
+        result1 = self.target.present_yourself()
+        result2 = self.target.salutate()
+        result3 = self.target.say_all()
+
+        # Restore the level
+        self.target.set_level(self.test_level)
 
         # Check if the expected result and result are the same
-        self.assertEquals(self.target.present_yourself(), expected_result)
+        self.assertEquals(result1, expected_result)
+        self.assertEquals(result2, expected_result)
+        self.assertEquals(result3, expected_result)
 
 
 if __name__ == '__main__':
