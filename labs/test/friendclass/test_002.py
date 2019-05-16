@@ -3,7 +3,7 @@ from labs.Friend import Friend
 
 # EXERCISE:
 # Create a new function in friend, that allows you to change the name.
-# Tests will check that after changing the name, the salutate method has the new name
+# Tests will check that after changing the name, the salutate method has the new name.
 
 
 class TestFriend002(unittest.TestCase):
