@@ -1,0 +1,38 @@
+Ampliar classe Friend
+
+
+
+
+[19:00, 5/13/2019] Semidani: exercici 0, mireu be les clases listRepository amb el fitxer que la prova
+[19:00, 5/13/2019] Semidani: i despres el listsService
+[19:00, 5/13/2019] Semidani: haurieu de detectar unes poquetes coses que no us sonen i us he colat
+[19:00, 5/13/2019] Semidani: a veure si per contexte ho enteneu
+
+
+
+
+[20:14, 5/16/2019] Semidani: deures:
+[20:15, 5/16/2019] Semidani: 1) feu pull de la branch master, hi ha coses noves
+[20:15, 5/16/2019] Semidani: 2) us anire creant branches noves, cadascuna amb un exercici
+[20:15, 5/16/2019] Semidani: els noms de les branch son:
+rodri_exercise_002
+[20:15, 5/16/2019] Semidani: i el mateix amb branda
+[20:16, 5/16/2019] Semidani: que cadascu treballi a les seves!
+[20:16, 5/16/2019] Semidani: teniu el 002 i el 003
+[20:16, 5/16/2019] Semidani: si ho resoleu, ho pujeu a la branca i maviseu per a que ho revisi
+[20:17, 5/16/2019] Semidani: cada exercici es un fitxer que es diu test_002.py (o el numero que sigui)
+[20:17, 5/16/2019] Semidani: que esta en labs/test/friendclass
+[20:18, 5/16/2019] Semidani: aneu a la vostra branch de lexercici 002 i mireu la clase test_002
+[20:18, 5/16/2019] Semidani: SOBRETOT: TREBALLEU NOMES A LA VOSTRA BRANCA
+[20:18, 5/16/2019] Semidani: els exercicis els farem duna forma peculiar: son unit tests
+[20:19, 5/16/2019] Semidani: els unit tests son parts de codi encarregades de provar el codi funcional
+[20:19, 5/16/2019] Semidani: per asegurarnos que no trenquem res
+[20:19, 5/16/2019] Semidani: aixi que el fitxer test_002 no lheu de tocar! nomes executarho
+[20:20, 5/16/2019] Semidani: i automaticament llençara els tests
+[20:20, 5/16/2019] Semidani: al principi veureu que us falla
+[20:20, 5/16/2019] Semidani: sortiran en groc
+[20:20, 5/16/2019] Semidani: i es normal, ja que encara no heu resolt lexercici. Quan el resolgueu els tests sortiran verds
+[20:20, 5/16/2019] Semidani: la clase que heu de tocar
+[20:21, 5/16/2019] Semidani: es la clase Friend que esta a la carpeta labs
+[20:21, 5/16/2019] Semidani: es la que heu danar modifican per a que la clase test_002 pasi
+[20:22, 5/16/2019] Semidani: dins de la clase test_002 teniu instruccions del que heu de fer
