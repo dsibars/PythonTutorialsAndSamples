@@ -4,6 +4,17 @@ class Friend(object):
         self.friend_of = friend_of
         self.friend_level = friend_level
 
+    def set_level(self, newlevel):
+        self.friend_level = newlevel
+
+    if self.friend_level >= 8:
+        print('OH MY GOD I LOVE YOU!')
+        return  #talla el rollo ( no se com es diu aquesta funcio)
+    if self.friend_level <= 3:
+        print('Fuck you!')
+        return #talla el rollo ( no se com es diu aquesta funcio)
+
+
     def set_name(self, newname):
         self.name = newname
 
