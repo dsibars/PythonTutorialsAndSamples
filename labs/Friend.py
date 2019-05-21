@@ -4,6 +4,9 @@ class Friend(object):
         self.friend_of = friend_of
         self.friend_level = friend_level
 
+    def set_name(self, newname):
+        self.name = newname
+
     def salutate(self):
         return 'hello my friend ' + self.friend_of + '. How are you?'
 
@@ -12,3 +15,4 @@ class Friend(object):
 
     def say_all(self):
         return self.present_yourself() + '\n' + self.salutate()
+
