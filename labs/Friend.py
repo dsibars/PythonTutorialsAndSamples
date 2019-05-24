@@ -10,8 +10,6 @@ class Friend(object):
         self.friend_level_index = 1
         self.friend_of = friend_of
 
-        # As we have set methods than can do other things appart of changing the value,
-
         # define responses based on levels in arrays
         self.salutations = ['Fuck you!',
                             'hello my friend {}. How are you?',
@@ -25,6 +23,7 @@ class Friend(object):
                         'hello! I am {}\nhello my friend {}. How are you?',
                         'OH MY GOD I LOVE YOU!']
 
+        # As we have set methods than can do other things appart of changing the value,
         # we will call it to ensure that all the behavior is done
         self.set_name(name)
         self.set_level(friend_level)
