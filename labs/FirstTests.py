@@ -3,6 +3,16 @@ cebolla = ' else'
 
 print(patata)
 
+
+if patata == cebolla:
+    print('equals')
+else:
+    print('not equals')
+
+
+
+
+
 numerito1 = 69
 numerito2 = 13
 numerito1 = 73
